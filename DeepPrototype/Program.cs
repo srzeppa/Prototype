@@ -24,7 +24,7 @@ namespace DeepPrototype
             var clonedPlayer1 = player.Clone();
             var clonedPlayer2 = player.DeepClone();
 
-            Console.WriteLine("PLAYER2");
+            Console.WriteLine("PLAYER1");
             if (ReferenceEquals(clonedPlayer1, player))
             {
                 Console.WriteLine("Object reference to the same object");
